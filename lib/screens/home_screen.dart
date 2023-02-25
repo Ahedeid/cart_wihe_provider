@@ -2,7 +2,7 @@ import 'package:cart_wihe_provider/model/item.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import '../provider/conrol.dart';
+import '../provider/control.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -52,10 +52,10 @@ class HomeScreen extends StatelessWidget {
             ],
           ),
           trailing: Consumer<Contol>(
-            builder: (context,conrol,child){
+            builder: (context,control,child){
               return IconButton(
                   onPressed: (){
-                    conrol.addItem(items[index]);
+                    control.addItem(items[index]);
                   },
                   icon: const Icon(Icons.add));
             } ,

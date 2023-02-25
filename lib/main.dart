@@ -1,4 +1,4 @@
-import 'package:cart_wihe_provider/provider/conrol.dart';
+import 'package:cart_wihe_provider/provider/control.dart';
 import 'package:cart_wihe_provider/screens/cart_screen.dart';
 import 'package:cart_wihe_provider/screens/home_screen.dart';
 import 'package:flutter/material.dart';
